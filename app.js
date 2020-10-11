@@ -7,8 +7,18 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-
+  var str = a;
+  var num = b;
+  return [str, num];
 }
+
+var sydneysNumber = sum('sydney', 4)[1];
+var treysNumber = sum('treys', 7)[1];
+var totalNumbers = sydneysNumber + treysNumber;
+
+console.log(sydneysNumber);
+console.log(treysNumber);
+console.log(totalNumbers);
 
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
