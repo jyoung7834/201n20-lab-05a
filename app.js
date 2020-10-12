@@ -6,19 +6,19 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a, b) { //eslint-disable-line
-  var str = a;
-  var num = b;
-  return [str, num];
-}
+// function sum(a, b) { //eslint-disable-line
+//   var str = a;
+//   var num = b;
+//   return [str, num];
+// }
 
-var sydneysNumber = sum('sydney', 4)[1];
-var treysNumber = sum('treys', 7)[1];
-var totalNumbers = sydneysNumber + treysNumber;
+// var sydneysNumber = sum('sydney', 4)[1];
+// var treysNumber = sum('treys', 7)[1];
+// var totalNumbers = sydneysNumber + treysNumber;
 
-console.log(sydneysNumber);
-console.log(treysNumber);
-console.log(totalNumbers);
+// console.log(sydneysNumber);
+// console.log(treysNumber);
+// console.log(totalNumbers);
 
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
@@ -33,8 +33,17 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+  var strQtwo = a;
+  var numQtwo = b;
+  return [strQtwo, numQtwo];
 }
+ var sqtwoNumber = multiply('sydneyq2', 5)[1];
+ var tq2woNumber = multiply('trey', 9)[1];
+ var totalqtwoNumbers = sqtwoNumber * tq2woNumber;
+
+ console.log(sqtwoNumber);
+ console.log(tq2woNumber);
+ console.log(totalqtwoNumbers);
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
